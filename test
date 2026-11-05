@@ -1,0 +1,372 @@
+# name= "Anastasia"
+
+# # print (len(name))
+
+# # print (name.find("i"))
+# # print (name.capitalize ())
+
+# name = input ("whats your name: ")
+
+# print ("hello " +name)
+
+
+# name = "Code Grow"
+
+# first_name = name [0:3]
+# crazy_name = name [ : : 2]
+# print(crazy_name)
+
+# age = int (input ("Your age: "))
+
+# if age >=18: 
+#     print ("Eisai enilikas")
+# elif age <0:
+#     print ("den exeis gennithei")
+# else :
+#     print ("eimai anilikos")
+
+# temp = int (input("enter temperature:"))
+
+# if temp >10 and temp <30:
+#     print ("exei polu kalo kairo")
+# elif temp <0 or temp>35 :
+#     print ("min bgeis kalutera")
+# elif temp >0 and temp <10:
+#     print ("it's superrrr")
+
+
+# name = ""
+
+# while len(name)==0:
+#     name = input ("enter your name: ")
+
+# print (f"hello {name}")
+
+# for i in range (10):
+#     print (i)
+
+# for counter in range (50,100,5):
+#     print (counter)
+
+# import time
+# for seconds in range (10,0,-1):
+#     print (seconds)
+#     time.sleep (1)
+
+# print ("telos")
+
+# for i in "Anastasia":
+#     print (i)
+
+#nested for
+
+# rows  = int (input("enter rows "))
+# colums = int (input ("enter colums "))
+# symbol = input ("enter a symbol")
+
+# for i in range (rows):
+#     for j in range (colums):
+#         print (symbol, end="")
+#     print ("")
+
+# number = "1234567"
+
+# for num in number:
+#     if num =="3":
+#         continue
+#     print (num, end="")
+
+# for i in range (1,21):
+#     if i==13:
+#         continue
+#     else:
+#         print (i,end=",")
+
+# food = ['gyros', 'pastitsio']
+# print (food[0])
+
+# # food.append ('mousakas')
+# food.remove ("pastitsio")
+
+# for i in food:
+#     print (i)
+
+# dishes = ["gyros", "pastitsio", "pizza"]
+# drinks = ["coca cola", "beer", "vodta"]
+# desserts = ["ice cream", "crepes"]
+
+# food = [drinks, dishes, desserts]
+# print (food[2][0])
+
+
+# student = ("Codegrow", 22, "male")
+
+# print(student.count ("Codegrow"))
+# print( student.index ("male"))
+
+# for x in student:
+#     print (x)
+
+# if "male" in student:
+#     print ("he is here")
+
+# utensils = {"fork" ,"spoon", "knife", "knife", "knife"}
+# dishes= {"bowl", "plate", "cup"}
+
+
+# utensils.remove ("fork")
+# utensils.clear ()
+# utensils.add("napkin")
+
+# dishes.update (utensils)
+
+# dinner_table =utensils.union(dishes)
+
+# for x in dinner_table:
+#     print (x)
+
+# capitals = {"USA" : "Washington",
+#             "Germany" : "Berlin",
+#             "Russia":"Moscow"}
+
+# print (capitals["Germany"])
+# print (capitals.get("Russia"))
+
+# print(capitals.values())
+
+# print(capitals.items())
+
+
+
+
+# capitals = {"USA" : "Washington",
+#          "Germany" : "Berlin",
+#             "Russia":"Moscow"}
+
+# capitals.update({"greece":"Athens"})
+# capitals.pop ("USA")
+
+
+# for key,values in capitals.items():
+#  print (key,values)
+
+# name= "anastasia"
+
+# # if (name[0].islower()):
+# #     name=name.capitalize()
+# first_name = name[:4]
+# last_name=name[4:]
+
+# print (first_name)
+# print(last_name)
+
+# def hello (name,surname,age):
+#     print(f"My name is {name} {surname} and I am {age} years old")
+
+# name= "Anastasia"
+# surname= "Karatza"
+# age= 30
+
+# hello (name, surname, age)
+
+# my_list = [2, 3, 5, 3, 7, 2, 5, 8, 5]
+
+# for index,numbers in enumerate(my_list):
+#     print (index, numbers)
+
+# list={""}
+
+# # grades = [85, 65, 99,43]
+# # names = ["rafail", "katerina", "pavlos", "ioanna"]
+
+# # for name, grade in zip (names,grades):
+# #     print (grade,name)
+
+# def calc_rectagular(width: float,height:float) -> float | None:
+
+#     """
+#     Calculates the area of a rectagular
+
+#     Args: 
+#         width: the width of the rec
+#         height: the height of the rec
+
+#     returns: area: the final area of the rectagular
+    
+#     """
+
+#     if width <=0 or height <=0:
+#         print("The dimensions cannot be negative or zero." )
+#         return None
+#     area = width * height
+#     return area
+
+# bedroom1 = calc_rectagular (width=5, height=3)
+# kitchen = calc_rectagular (width= 2, height=2)
+# living_room = calc_rectagular (width= 5, height=2)
+# bathroom = calc_rectagular (width=3,height=2)
+
+# total_area = bedroom1 + kitchen +living_room+ bathroom
+
+# print(f"the total area of my home is {total_area} ")
+
+
+# #Create and manipulate a small dataset in NumPy 
+# • First, create a 4x5 matrix with integers from 1 to 20 (random). 
+# • Add 10 to each element in the matrix.
+# • Calculate the dot product of the matrix with itself (transposed). 
+# • Reshape the matrix to 2x10 and 1x20.
+# • Finally, sort each column of the matrix in ascending order.
+
+my_list = [30 ,34 ,22 ,47,52 , 21]
+# your_list = [21, 37,63, 31]
+
+# len(my_list)
+
+# y = my_list.pop()
+# print(y)
+# print(my_list)
+
+# my_list.extend(your_list)
+# print(my_list)
+
+# my_list.remove (22)
+# print (my_list)
+# my_list.sort ()
+# print (my_list)
+# len(my_list)
+# print (len(my_list)-1)
+
+# names = ["Giorgos", "Konstantinos" , "Katerina", "Vasiliki", "Maria"]
+# ages= [37, 21,27, 25,39]
+
+# students_dict = {"name": names , "age": ages}
+# # print (students_dict)
+
+# print (f"The keys of my dictionary are: {students_dict.keys()}")
+# print (f"The values of my dictionary are: {students_dict.values()}")
+
+# age = int(input("what  is your age:"))
+
+# # age_int= int(age) 
+
+# if age >= 18:
+#     print ("He/she is an adult")
+
+# else:
+#     print ("you are a minor")
+
+
+# grade = 80
+
+# if grade >=85:
+#     print ("grade A")
+# elif grade >=70:
+#     print ('Grade B')
+# elif grade >= 60:
+#     print ('Grade C')
+
+# else:
+#     print ('You have failed')
+
+
+# students =['Nikos', 'Giorgos', 'Maria' 'Katerina' ]
+# grades = [85, 65, 99, 43]
+
+# ratings_order = {"A":85, "B":70, "C": 50}
+
+# for student, grade in zip (students, grades):
+#     if grade >= ratings_order ["A"]:
+#         print (f"{student} pire A")
+
+#     elif grade>= ratings_order ["B"]:
+#         print (f"{student} pire B")
+#     elif grade >= ratings_order ["C"]:
+#         print (f"{student} pire C")
+#     else:
+
+#         print (f"{student} failed")
+
+    
+# def greet (name: str, surname: str, age: int | None=None)-> str:
+#     """
+#     this function is used to greed a user with their age
+
+#     Args: 
+#         name (str): the name of the user
+#         surname (str): the surname of the user
+#         age (int): the age of the user
+
+#     returns: 
+#         str: returns the greeting
+    
+#     """
+#     # if age is None or age <=0 or age >110:
+#     # age = 'unknown'
+
+#     final_greeting = f"the name of the user is {name} {surname}. They are {age} years old"
+#     return final_greeting
+
+# greet_Anastasia = greet (name="Anastasia", surname="Karatza", age=60)
+# print (greet_Anastasia)
+
+# def area_rect (width:float, height: float)-> float:
+
+#     """
+#     define the area of a rectangular
+#     Args: 
+#     width: the width of the rectangular
+#     height: the height of the rectangular
+
+#     returns:
+#      float: the area of rectangular
+#     """
+#     emvadon = width * height
+#     print (f"to emvadon einai {emvadon}")
+#     return emvadon
+
+# emvadon1= area_rect(width =14, height= 10)
+
+# class Dog:
+#     def __init__ (self, name:str ,breed: str, weight: float, age:int , is_vaccinated :bool = False):
+#         self.name= name
+#         self.breed = breed
+#         self.weight=weight
+#         self.age = age
+#         self.is_vaccinated = is_vaccinated
+
+
+#     def bark (self):
+#         print (f"dog with name {self.name} says woof")
+
+
+class BankAccount:
+    def __init__ (self, account_holder : str, balance: float = 0):
+        self.account_holder = account_holder
+        self.balance = balance
+    def deposit (self, amount:float):
+        if amount >0:
+            self.balance= self.balance + amount
+            print (f" Deposited {amount} into the account")
+        else:
+            print ("Amount must be postive")
+
+    def withdraw (self, amount: float):
+        if amount > self.balance:
+            print ("Insufficint balance")
+        else:
+            self.balance =self.balance - amount
+            print (f"Withdrawn {amount} into the account")
+
+    def display_balance(self):
+        print (f"your balance is {self.balance}")
+
+account_anastasia = BankAccount ("Anastasia" )
+account_anastasia.deposit (1000)
+account_anastasia.withdraw (200)
+account_anastasia.display_balance ()
+account_anastasia.withdraw (2000)
+account_anastasia.display_balance ()
+
+
+        
